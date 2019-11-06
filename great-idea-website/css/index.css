@@ -166,12 +166,19 @@ header .fixed-nav-bar {
 	background-color: #fefdff;
 }
 
+header .fixed-nav-bar ul {
+	margin-left: 500px;
+}
 header .fixed-nav-bar ul li {
 	display: inline-block;
 	align-content: center;
-	padding: 20px;
-	margin-left: 100px;
+	padding: 10px;
+	margin-left: 10px;
 	margin-bottom: 10px;
+}
+
+.fixed-nav-bar a {
+	margin: 0 20px;
 }
 
 .fixed-nav-bar a:link {
@@ -200,4 +207,43 @@ header .fixed-nav-bar ul li {
 		inset 0px 0px 0px 0px rgba(25, 98, 221, 0.77);
 	box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
 		inset 0px 0px 0px 0px rgba(25, 98, 221, 0.77);
+}
+
+header .logo {
+	margin-left: 5px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.top {
+	margin-top: 100px;
+	margin-bottom: 65px;
+}
+
+.top .market-action {
+	display: inline-block;
+	margin-left: 54px;
+	height: 100px;
+	line-height: 82px;
+	white-space: nowrap;
+}
+
+.market-action h1 {
+	font-size: 75px;
+	text-align: center;
+}
+.market-action button {
+	border: 1px solid black;
+	font-size: 20px;
+	margin: 0 25px;
+	margin-left: 95px;
+	text-align: center;
+	color: black;
+	background: white;
+}
+
+.top img {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 130px;
 }
