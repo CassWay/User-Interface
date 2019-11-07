@@ -247,3 +247,76 @@ header .logo {
 	margin-top: 30px;
 	margin-left: 130px;
 }
+
+.main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+}
+
+.top-content {
+	width: 100%;
+	align-items: center;
+}
+.feature-content {
+	text-align: left;
+}
+.features {
+	width: 49%;
+	height: 150px;
+	display: inline-block;
+}
+.about {
+	width: 49%;
+	height: 150px;
+	display: inline-block;
+}
+
+.middle-content {
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.bottom-content {
+	width: 100%;
+	align-items: center;
+}
+.services {
+	width: 32%;
+	height: 150px;
+	display: inline-block;
+}
+.product {
+	width: 32%;
+	height: 150px;
+	display: inline-block;
+}
+.vision {
+	width: 32%;
+	height: 150px;
+	display: inline-block;
+}
+
+.contact {
+	border-top: 1px solid black;
+	margin-top: 60px;
+	padding-top: 40px;
+}
+.contact-info {
+	align-items: left;
+}
+
+.contact-info a:link {
+	text-decoration: none;
+}
+
+.span:hover {
+	color: red;
+}
+footer {
+	margin: 100px 0 200px 0;
+	text-align: center;
+}
+.copyright:hover {
+	color: purple;
+}
