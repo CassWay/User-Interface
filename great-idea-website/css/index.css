@@ -152,8 +152,10 @@ h5 {
 /* Your code starts here! */
 
 .container {
-	width: 900px;
+	display: inline-block;
+	width: 100%;
 	margin: auto;
+	align-items: center;
 }
 
 header .fixed-nav-bar {
@@ -229,16 +231,20 @@ header .logo {
 }
 
 .top {
+	display: inline-block;
+	width: 100%;
 	margin-top: 100px;
 	margin-bottom: 65px;
 }
 
 .top .market-action {
 	display: inline-block;
-	margin-left: 54px;
-	height: 100px;
+	margin-top: 100px;
+	margin-left: 500px;
+	height: 315px;
+	width: 25%;
+	align-items: center;
 	line-height: 82px;
-	white-space: nowrap;
 }
 
 .market-action h1 {
@@ -249,7 +255,7 @@ header .logo {
 	border: 1px solid black;
 	font-size: 20px;
 	margin: 0 25px;
-	margin-left: 95px;
+	margin-left: 175px;
 	text-align: center;
 	color: black;
 	background: white;
@@ -265,47 +271,62 @@ header .logo {
 	border-top: 1px solid black;
 	margin-top: 76px;
 	padding-top: 39px;
+	width: 55%;
+	align-items: center;
+	display: inline-block;
+	margin-left: 500px;
 }
 
 .top-content {
 	width: 100%;
 	align-items: center;
+	display: inline-block;
 }
 .feature-content {
 	text-align: left;
+	padding: 10px;
 }
 .features {
-	width: 49%;
+	width: 46%;
 	height: 150px;
 	display: inline-block;
+	margin-right: 2%;
 }
 .about {
-	width: 49%;
+	width: 46%;
 	height: 150px;
 	display: inline-block;
+	margin-left: 2%;
 }
 
 .middle-content {
+	width: 100%;
 	align-items: center;
 	margin-bottom: 50px;
+}
+.middle-content img {
+	width: 100%;
+	height: auto;
 }
 
 .bottom-content {
 	width: 100%;
 	align-items: center;
+	display: inline-block;
 }
 .services {
-	width: 32%;
+	width: 30%;
 	height: 150px;
 	display: inline-block;
 }
 .product {
-	width: 32%;
+	width: 30%;
 	height: 150px;
 	display: inline-block;
+	margin: 0 3%;
 }
 .vision {
-	width: 32%;
+	width: 30%;
 	height: 150px;
 	display: inline-block;
 }
@@ -314,6 +335,9 @@ header .logo {
 	border-top: 1px solid black;
 	margin-top: 60px;
 	padding-top: 40px;
+	width: 55%;
+	display: inline-block;
+	margin-left: 500px;
 }
 .contact-info {
 	align-items: left;
