@@ -255,10 +255,11 @@ header .logo {
 	border: 1px solid black;
 	font-size: 20px;
 	margin: 0 25px;
-	margin-left: 175px;
+	margin-left: 115px;
 	text-align: center;
 	color: black;
 	background: white;
+	padding: 10px 54px;
 }
 
 .top img {
