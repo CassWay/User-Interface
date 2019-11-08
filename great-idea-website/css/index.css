@@ -209,7 +209,6 @@ header .fixed-nav-bar ul li {
 	margin: 0 10px;
 	border: 1px solid lightgray;
 	padding: 20px;
-	/* display: inline-block; */
 	border-radius: 20px;
 	color: blue;
 	text-decoration: none;
@@ -334,7 +333,7 @@ header .logo {
 
 .contact {
 	border-top: 1px solid black;
-	margin-top: 60px;
+	margin-top: 30px;
 	padding-top: 40px;
 	width: 55%;
 	display: inline-block;
